@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+      integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+    <h1 class="d-flex justify-content-center display-1">Etruština</h1>
+    <div class="parent">
+      <form action="/action_page.php">
+        <table>
+          <tr id="topButtons">
+            <!--<td>
+            <button type="button" id="buttUp0" onclick="nextLetter(0)">&#8593;</button>
+          </td>-->
+          </tr>
+          <tr id="letters">
+            <!--      <td class="unclickable"><input type="text" id="lett0" value="A"></td>-->
+          </tr>
+          <tr id="bottomButtons">
+            <!--<td>
+    &lt;!&ndash;        <button type="button" id="buttDown0" onclick="prevLetter(0)">&#8595;</button>&ndash;&gt;
+          </td>-->
+          </tr>
+        </table>
+
+        <div class="d-flex justify-content-center">
+          <input
+            id="words"
+            type="text"
+            class="form-control form-control-lg "
+            value=""
+            readonly
+          />
+        </div>
+        <div id="controls" class="d-flex justify-content-center ">
+          <button type="button" id="addLettButton" class="btn btn-primary ">
+            Přidat písmeno
+          </button>
+          <button type="button" id="delLettButton" class="btn btn-secondary">
+            Odebrat písmeno
+          </button>
+          <button type="button" id="nextWordButton" class="btn btn-success">
+            Další slovo
+          </button>
+          <button type="button" id="delWordButton" class="btn btn-danger">
+            Odebrat slovo
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+      integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
